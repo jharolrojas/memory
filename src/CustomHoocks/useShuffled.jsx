@@ -44,7 +44,7 @@ const useShuffled = () => {
       console.log(count, shuffledMemoBlocks.length / 2);
       count == shuffledMemoBlocks.length / 2 &&
         setTimeout(() => {
-          Swal.fire({ title: "Ganaste que buena memoria tienes" });
+          Swal.fire({ title: "¡Ganaste! Que buena memoria tienes" });
           setReset(!reset);
           setCount(1);
         }, 500);
